@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>WebStudio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -67,7 +67,7 @@
       <section class="hero section-hero">
         <div class="container">
           <h1 class="hero-title">Ефективні рішення для <br> вашого бізнесу</h1>
-          <button class="hero-button" type="button">Замовити послугу</button>
+          <button class="hero-button " data-modal-open  type="button">Замовити послугу</button>
         </div>
       </section>
       <!---КІНЕЦЬ КНОПКА Замовити послугу -->
@@ -387,6 +387,7 @@
               </ul>
             </div>
            </section>
+          </main>
       <!--КІНЕЦЬ КОМАНДА ПРАЦІВНИКІВ-->
       <!--footer-->
     <footer class="footer">
@@ -445,6 +446,17 @@
       </div>
     </footer>
       <!--КІНЕЦЬ footer-->
-    </main>
+    
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn" type="button" data-modal-close>
+          <svg class="modal-icone" width="18" height="18px">
+            <use href="./images/svg/sprite.svg#icon-close"></use>
+          </svg>
+        </button>
+        
+      </div>
+    </div>
+    <script src="./js/modal.js"></script>
   </body>
 </html>
