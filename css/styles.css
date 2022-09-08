@@ -774,6 +774,12 @@ html {
   background-color: var(--primary-white-color);
   border: 1px solid rgba(0, 0, 0, 0.1);
 }
+
 .modal-icone{
   fill: var(--primary-text-color);
+}
+
+.modal-icone:hover,
+.modal-icone:focus {
+  fill: var(--accent-text-color);
 }
