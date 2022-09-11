@@ -571,7 +571,8 @@ html {
 
 }
 
-.portfolio-card:hover .overlai{
+.portfolio-card:hover .overlai,
+.portfolio-card:focus .overlai{
   transform: translateY(0);
   background-color: rgba(33, 150, 243, 0.9);
   color: var(--primary-white-color);
@@ -601,7 +602,7 @@ html {
 
 
 .portfolio-title {
-  margin-bottom: 4px;
+  margin-bottom: 4px; 
 
   font-weight: 700;
   font-size: 18px;
